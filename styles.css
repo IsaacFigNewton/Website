@@ -69,3 +69,46 @@ button {
 .body {
 	background-image: url("");
 }
+
+footer {
+	background-color: blue;
+	color: white;
+	padding-top: 2px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+/*These are for the icon button links in the footer of the pages*/
+.linkedInButton {
+	background-image: url("images/");
+	padding: 5px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.facebookButton {
+	background-image: url("images/");
+	padding: 5px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.twitterButton {
+	background-image: url("images/");
+	padding: 5px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.instagramButton {
+	background-image: url("images/");
+	padding: 5px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+}
