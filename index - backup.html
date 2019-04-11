@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html>
-<script type="text/javascript" src="htmlLinking.js"></script>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<title>Home</title>
 </head>
 
 <body>
-	<div include="html/header.html"></div>
+	<div class="head">
+		<h1 class="title">Home</h1>
+		
+		<div class="headButtons">
+			<div class="dropdown">
+				<button class=headButton><a href="index.html">Home</a></button>
+			</div>
+			
+			<!-- The dropdown div tags for my photography projects.-->
+			<div class="dropdown">
+				<button class=headButton>About</button>
+				<div class="dropdownContent">
+					<a href="#">About Me</a>
+					<br>
+					<a href="#">Resume</a>
+					<br>
+					<a href="#">About this Website</a>
+				</div>				
+			</div>
+			
+			<!-- The dropdown div tags for my projects.-->
+			<div class="dropdown">
+				<button class=headButton>Projects</button>
+				<div class="dropdownContent">
+					<a href="#">FastidiousFractals2019 Collab.</a>
+					<br>
+					<a href="#">Link 2</a>
+					<br>
+					<a href="#">Link 3</a>
+				</div>			
+			</div>
+			
+			<!-- The dropdown div tags for my photography projects.-->
+			<div class="dropdown">
+				<button class=headButton>Photography</button>
+				<div class="dropdownContent">
+					<a href="#">Animals</a>
+					<br>
+					<a href="#">Architecture</a>
+					<br>
+					<a href="#">People</a>
+					<br>
+					<a href="#">Nature</a>
+					<br>
+					<a href="#">Landscapes</a>
+					<br>
+					<a href="#">Link 6</a>
+				</div>				
+			</div>
+		</div>
+		<br>
+	</div>
 	
 	<div class="body">
 		<h2>Hello</h2>
@@ -18,6 +69,14 @@
 		
 	</div>
 </body>
-<div include="html/footer.html"></div>
-<script>includeHTML();</script>
+<footer>
+	<h2>Hello</h2>
+	<!-- The footer buttons are going to be icons-->
+	<div class="footButtons">
+		<a href="#"><button class=linkedInButton></button></a>
+		<a href="#"><button class=facebookButton></button></a>
+		<a href="#"><button class=twitterButton></button></a>
+		<a href="#"><button class=instagramButton></button></a>
+	</div>
+</footer>
 </html>
