@@ -28,4 +28,3 @@ function includeHTML() {
     }
   }
 }
-includeHTML();
