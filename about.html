@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+	<script type="text/javascript" src="htmlLinking.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<title>Home</title>
 </head>
 
 <body>
-	<div class="head">
-		<h1 class="title">Home</h1>
-		
-		<div class="headButtons">
-			<div class="dropdown">
-				<button class=headButton><a href="index.html">Home</a></button>
-			</div>
-			
-			<!-- The dropdown div tags for my photography projects.-->
-			<div class="dropdown">
-				<button class=headButton>About</button>
-				<div class="dropdownContent">
-					<a href="#">About Me</a>
-					<br>
-					<a href="#">Resume</a>
-					<br>
-					<a href="#">About this Website</a>
-				</div>				
-			</div>
-			
-			<!-- The dropdown div tags for my projects.-->
-			<div class="dropdown">
-				<button class=headButton>Projects</button>
-				<div class="dropdownContent">
-					<a href="#">FastidiousFractals2019 Collab.</a>
-					<br>
-					<a href="#">Link 2</a>
-					<br>
-					<a href="#">Link 3</a>
-				</div>			
-			</div>
-			
-			<!-- The dropdown div tags for my photography projects.-->
-			<div class="dropdown">
-				<button class=headButton>Photography</button>
-				<div class="dropdownContent">
-					<a href="#">Animals</a>
-					<br>
-					<a href="#">Architecture</a>
-					<br>
-					<a href="#">People</a>
-					<br>
-					<a href="#">Nature</a>
-					<br>
-					<a href="#">Landscapes</a>
-					<br>
-					<a href="#">Link 6</a>
-				</div>				
-			</div>
-		</div>
-		<br>
-	</div>
+	<div include="html/header.html"></div>
 	
 	<div class="body">
+		<div class="subtitle">
 		<h2>Hello</h2>
+		</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate eu scelerisque felis imperdiet. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Viverra aliquet eget sit amet. Venenatis cras sed felis eget velit aliquet. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Adipiscing vitae proin sagittis nisl rhoncus mattis. Viverra tellus in hac habitasse. In nisl nisi scelerisque eu ultrices vitae auctor. Hendrerit gravida rutrum quisque non tellus orci. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Proin libero nunc consequat interdum varius sit amet mattis. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Vitae tortor condimentum lacinia quis vel eros donec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim.</p>
 		<img href="images/" height="400" width="400">
 		<p>Enim nunc faucibus a pellentesque sit amet porttitor eget. Aliquam etiam erat velit scelerisque in dictum non consectetur. Turpis tincidunt id aliquet risus. Amet nulla facilisi morbi tempus iaculis urna. Eget est lorem ipsum dolor sit amet. Magnis dis parturient montes nascetur ridiculus mus. Sed velit dignissim sodales ut eu sem integer vitae justo. Magna fermentum iaculis eu non. Hendrerit dolor magna eget est. Risus at ultrices mi tempus imperdiet. Sodales neque sodales ut etiam sit amet nisl purus. Interdum consectetur libero id faucibus nisl tincidunt eget nullam. Phasellus vestibulum lorem sed risus. Elementum facilisis leo vel fringilla est ullamcorper. Leo vel fringilla est ullamcorper eget. Fermentum et sollicitudin ac orci phasellus egestas. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Dolor sit amet consectetur adipiscing elit pellentesque.</p>
@@ -69,14 +20,6 @@
 		
 	</div>
 </body>
-<footer>
-	<h2>Hello</h2>
-	<!-- The footer buttons are going to be icons-->
-	<div class="footButtons">
-		<a href="#"><button class=linkedInButton></button></a>
-		<a href="#"><button class=facebookButton></button></a>
-		<a href="#"><button class=twitterButton></button></a>
-		<a href="#"><button class=instagramButton></button></a>
-	</div>
-</footer>
+<div include="html/footer.html"></div>
+<script>includeHTML();</script>
 </html>
