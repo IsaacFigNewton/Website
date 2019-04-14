@@ -51,7 +51,7 @@ button {
 	}
 
 	/* Show the dropdown menu on hover */
-	.dropdown:hover .dropdownContent {
+	.dropdown:click .dropdownContent {
 		display: block;
 	}
 
