@@ -72,6 +72,7 @@ button {
 /* The dropdown menu code was edited from base code from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 * {box-sizing:border-box}
 
+/* slideshow styling */
 /* Slideshow container */
 .slideshow {
   max-width: 1000px;
@@ -163,6 +164,13 @@ button {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/* projects.html */
+.project {
+	height: "400";
+	width: "400";
+	
 }
 
 footer {
