@@ -73,112 +73,107 @@ button {
 * {box-sizing:border-box}
 
 /* slideshow styling */
-/* Slideshow container */
-.slideshow {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+	/* Slideshow container */
+	* {
+	  box-sizing: border-box;
+	}
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+	/* Position the image container (needed to position the left and right arrows) */
+	.gallery {
+	  position: relative;
+	}
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+	/* Hide the images by default */
+	.mySlides {
+	  display: none;
+	}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+	/* Add a pointer when hovering over the thumbnail images */
+	.cursor {
+	  cursor: pointer;
+	}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+	/* Next & previous buttons */
+	.prev,
+	.next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 40%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -50px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 20px;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	  -webkit-user-select: none;
+	}
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover,
+	.next:hover {
+	  background-color: rgba(0, 0, 0, 0.8);
+	}
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+	/* Container for image text */
+	.caption-container {
+	  text-align: center;
+	  background-color: #222;
+	  padding: 2px 16px;
+	  color: white;
+	}
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	/* Six columns side by side */
+	.column {
+	  float: left;
+	  width: 16.66%;
+	}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	/* Add a transparency effect for thumnbail images */
+	.demo {
+	  opacity: 0.6;
+	}
+
+	.active,
+	.demo:hover {
+	  opacity: 1;
+	}
 
 /* projects.html */
-.project {
-	height: "400";
-	width: "400";
-}
+	.project {
+		height: "400";
+		width: "400";
+	}
 
-.project .1 {
-	background-image: url('images/placeholder.jpg');
-}
+	.project .1 {
+		background-image: url('images/placeholder.jpg');
+	}
 
-.project .2 {
-	background-image: url('images/placeholder.jpg');
-}
+	.project .2 {
+		background-image: url('images/placeholder.jpg');
+	}
 
 footer {
 	background-color: url("images/placeholder.jpg");
