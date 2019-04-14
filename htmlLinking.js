@@ -1,6 +1,5 @@
 //This code is from https://www.w3schools.com/howto/howto_html_include.asp
 //I'm using it to refactor the header and footer code across my webpages
-//As of 4/10/2019 it is nonfunctional
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
