@@ -170,7 +170,14 @@ button {
 .project {
 	height: "400";
 	width: "400";
-	
+}
+
+.project .1 {
+	background-image: url('images/placeholder.jpg');
+}
+
+.project .2 {
+	background-image: url('images/placeholder.jpg');
 }
 
 footer {
