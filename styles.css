@@ -177,7 +177,8 @@ button {
 	}
 
 footer {
-	color: black;
+	color: white;
+	background-color: black;
 	padding-top: 2px;
 	padding-left: 20px;
 	padding-bottom: 10px;
@@ -193,7 +194,7 @@ footer {
 	height: 50px;
 	width: 50px;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 50px 50px;
 }
 
 .facebookButton {
@@ -203,7 +204,7 @@ footer {
 	height: 50px;
 	width: 50px;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 50px 50px;
 }
 
 .twitterButton {
@@ -213,7 +214,7 @@ footer {
 	height: 50px;
 	width: 50px;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 50px 50px;
 }
 
 .instagramButton {
@@ -223,5 +224,5 @@ footer {
 	height: 50px;
 	width: 50px;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 50px 50px;
 }
