@@ -6,6 +6,7 @@
 	padding-left: 20px;
 	padding-bottom: 20px;
 	border-radius: 10px;
+	align-content: center;
 }
 
 button {
@@ -17,9 +18,9 @@ button {
 /* The dropdown menu code was edited from base code from https://www.w3schools.com/howto/howto_css_dropdown.asp */
 	/* Dropdown Button */
 	.headButton {
-		background-color: #4CAF50;
+		background-color: #9ce0ff;
 		color: white;
-		padding: 15px;
+		padding: 10px;
 		font-size: 20px;
 		border: none;
 	}
@@ -68,14 +69,15 @@ button {
 /* The main part of the webpage*/	
 body {
 	background-image: url("/images/placeholder.jpg");
+	align-content: center;
 }
 
 .title {
 	font-size: 50px;
 }
 
-.about {
-	align-content: center;
+p {
+	font-size: 14px;
 }
 
 /* The dropdown menu code was edited from base code from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
