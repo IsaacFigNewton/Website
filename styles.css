@@ -1,6 +1,6 @@
 /* The top of the website */
 .head {
-	background-image: url("images/placeholder.jpg");
+	background-image: url("/images/placeholder.jpg");
 	color: white;
 	padding-top: 100px;
 	padding-left: 20px;
@@ -66,12 +66,16 @@ button {
 
 
 /* The main part of the webpage*/	
-.body {
-	background-image: url("images/placeholder.jpg");
+body {
+	background-image: url("/images/placeholder.jpg");
 }
 
 .title {
 	font-size: 50px;
+}
+
+.about {
+	align-content: center;
 }
 
 /* The dropdown menu code was edited from base code from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
@@ -165,6 +169,11 @@ button {
 	.demo:hover {
 	  opacity: 1;
 	}
+
+/* photography.html */
+.photography {
+	align-content: center;
+}
 
 /* projects.html */
 	.project {

@@ -9,78 +9,105 @@
 </head>
 
 <body>
-	<a href="index.html"><img href="images/placeholder.jpg" height="50" width="800"></a>
+	<!-- Header -->
+	<div include="html/header.html"></div>
 	
-	<div class="body">
-		<div class="title">
-		<h2>Hello</h2>
+	<div class="title">
+	<h5>I like to do some photography in my free time but am always open to comissions.</h5>
+	</div>
+	
+	<!-- modify following section with code from alcatraz site to expand and display more photo samples in expanded div view, but refactor alcatraz code into 1 JS function when you get better>
+	
+	<!-- Slideshow containers, code from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp altered to taste. -->
+	<div class="gallery">
+
+	  <!-- Full-width images with number text -->
+	  <div class="mySlides">
+		<div class="numbertext">1 / 6</div>
+		  <img src="images/placeholder.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">2 / 6</div>
+		  <img src="images/photography/architecture/Congressional Ceiling Art.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">3 / 6</div>
+		  <img src="images/photography/people/Golden Hour Marcus.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">4 / 6</div>
+		  <img src="images/photography/wildlife/Spider.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 6</div>
+		  <img src="images/photography/plants and fungi/Smol Shrooms.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">6 / 6</div>
+		  <img src="images/placeholder.jpg" style="width:100%">
+	  </div>
+
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	  <!-- Image text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+
+	  <!-- Thumbnail images -->
+	  <div class="row">
+		<div class="column">
+		  <img class="demo cursor" src="images/photography/architecture/Congressional Ceiling Art.jpg" style="width:100%" onclick="currentSlide(1)" alt="slide 1">
 		</div>
-		<!-- Slideshow containers, code from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp altered to taste. -->
-		<div class="gallery">
-
-		  <!-- Full-width images with number text -->
-		  <div class="mySlides">
-			<div class="numbertext">1 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <div class="mySlides">
-			<div class="numbertext">2 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <div class="mySlides">
-			<div class="numbertext">3 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <div class="mySlides">
-			<div class="numbertext">4 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <div class="mySlides">
-			<div class="numbertext">5 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <div class="mySlides">
-			<div class="numbertext">6 / 6</div>
-			  <img src="images/placeholder.jpg" style="width:100%">
-		  </div>
-
-		  <!-- Next and previous buttons -->
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		  <!-- Image text -->
-		  <div class="caption-container">
-			<p id="caption"></p>
-		  </div>
-
-		  <!-- Thumbnail images -->
-		  <div class="row">
-			<div class="column">
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(1)" alt="slide 1">
-			</div>
-			<div class="column"> 
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(2)" alt="slide 2">
-			</div>
-			<div class="column">
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(3)" alt="slide 3">
-			</div>
-			<div class="column">
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(4)" alt="slide 4">
-			</div>
-			<div class="column">
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(5)" alt="slide 5">
-			</div> 
-			<div class="column">
-			  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(6)" alt="slide 6">
-			</div>
-		  </div>
+		<div class="column"> 
+		  <img class="demo cursor" src="images/photography/people/Golden Hour Marcus.jpg" style="width:100%" onclick="currentSlide(2)" alt="slide 2">
 		</div>
-		
+		<div class="column">
+		  <img class="demo cursor" src="images/photography/wildlife/Spider.jpg" style="width:100%" onclick="currentSlide(3)" alt="slide 3">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="images/photography/plants and fungi/Smol Shrooms.jpg" style="width:100%" onclick="currentSlide(4)" alt="slide 4">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="images/photography/landscapes/Hill.jpg" style="width:100%" onclick="currentSlide(5)" alt="slide 5">
+		</div> 
+		<div class="column">
+		  <img class="demo cursor" src="images/placeholder.jpg" style="width:100%" onclick="currentSlide(6)" alt="slide 6">
+		</div>
+	  </div>
+	</div>
+	
+	<br>
+	
+	<div class="photography">
+		<br>
+		<a href="#">
+			<h3>Architecture</h3>
+			<img src="images/photography/architecture/Congressional Ceiling Art.jpg" height="400" width="600">
+		</a>
+		<a href="#">
+			<h3>People</h3>
+			<img src="images/photography/people/Golden Hour Marcus.jpg" height="400" width="600">
+		</a>
+		<a href="#">
+			<h3>Wildlife</h3>
+			<img src="images/photography/wildlife/Spider.jpg" height="400" width="600">
+		</a>
+		<a href="#">
+			<h3>Plants and Fungi</h3>
+			<img src="images/photography/plants and fungi/Smol Shrooms.jpg" height="400" width="600">
+		</a>
+		<a href="#">
+			<h3>Landscapes</h3>
+			<img src="images/photography/landscapes/Hill.jpg" height="400" width="500">
+		</a>
 	</div>
 </body>
 <div include="html/footer.html"></div>
